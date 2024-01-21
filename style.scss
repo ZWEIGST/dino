@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Zeyada', cursive;
+    font-size: 18px;
+}
+.dino { 
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    background: linear-gradient(rgb(0, 238, 255), rgb(245, 241, 8));
+}
+
+.block {
+    margin-top: -240px;
+    padding-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+
+}
+
+.left, .right {
+    margin-bottom: -30px;
+}
+
+.img {
+    height: 4rem;
+    width: 4rem;
+}
+
+.input {
+    height: 4rem;
+    border: 0.15rem solid rgb(30, 216, 86);
+    border-radius: 2rem;
+    background-color: transparent;
+}
+
+.input::placeholder {
+    color: rgb(230, 15, 147);
+    padding: 1rem 1rem 1.75rem 0.5rem;
+}
